@@ -1,20 +1,21 @@
 {
   "format": "jarvis-update-v1",
-  "version": "13.0.1",
-  "package": "jarvis_update_v13_0_1.zip",
-  "sha256": "a3111ead0ed459842e1d56089ecbddc430160e45ebec3d2359b43fa69157a90c",
-  "size_bytes": 229899,
+  "version": "14.0.0",
+  "package": "jarvis_update_v14_0_0.zip",
+  "sha256": "ca0ba33896a39e2df4b973d0f563f09399e0457d2e566377533714cb965b8b50",
+  "size_bytes": 230056,
   "required_files": [
+    "UPDATE_JARVIS.bat",
     "app.py",
+    "integration_hub.py",
     "jarvis_updater.py",
-    "memory_store.py",
     "static/index.html",
-    "v13_core.py"
+    "v14_core.py"
   ],
   "version_markers": {
-    "app.py": "APP_VERSION: Final = \"13.0.1\"",
-    "jarvis_updater.py": "APP_VERSION = \"13.0.1\"",
-    "static/index.html": "AGENT OS v13.0.1",
-    "v13_core.py": "def looks_like_multistep_request"
+    "app.py": "APP_VERSION: Final = \"14.0.0\"",
+    "jarvis_updater.py": "APP_VERSION = \"14.0.0\"",
+    "static/index.html": "COMMUNICATION OS v14.0.0",
+    "v14_core.py": "\"version\": \"14.0.0\""
   }
 }
