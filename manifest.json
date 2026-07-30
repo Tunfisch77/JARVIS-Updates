@@ -1,21 +1,20 @@
 {
   "format": "jarvis-update-v1",
-  "version": "14.0.0",
-  "package": "jarvis_update_v14_0_0.zip",
-  "sha256": "ca0ba33896a39e2df4b973d0f563f09399e0457d2e566377533714cb965b8b50",
-  "size_bytes": 230056,
+  "version": "15.0.0",
+  "package": "jarvis_update_v15_0_0.zip",
+  "sha256": "0758dd6f063972b54117c227fb29107b8f29a178a1f62adccd0e778fbcfca0fa",
+  "size_bytes": 238206,
   "required_files": [
     "UPDATE_JARVIS.bat",
     "app.py",
-    "integration_hub.py",
     "jarvis_updater.py",
     "static/index.html",
-    "v14_core.py"
+    "v15_core.py"
   ],
   "version_markers": {
-    "app.py": "APP_VERSION: Final = \"14.0.0\"",
-    "jarvis_updater.py": "APP_VERSION = \"14.0.0\"",
-    "static/index.html": "COMMUNICATION OS v14.0.0",
-    "v14_core.py": "\"version\": \"14.0.0\""
+    "app.py": "APP_VERSION: Final = \"15.0.0\"",
+    "jarvis_updater.py": "APP_VERSION = \"15.0.0\"",
+    "static/index.html": "PC AGENT OS v15.0.0",
+    "v15_core.py": "PC_AGENT_VERSION: Final = \"15.0.0\""
   }
 }
