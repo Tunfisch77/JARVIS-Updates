@@ -1,0 +1,21 @@
+{
+  "format": "jarvis-update-v1",
+  "platform": "linux",
+  "version": "15.2.0",
+  "package": "jarvis_update_linux_v15_2_0.zip",
+  "sha256": "3af439f025689d0848e7c96fcb123f042dd714f8a3e4bec2a42572cafbf5b429",
+  "size_bytes": 669392,
+  "required_files": [
+    "app.py",
+    "jarvis_linux.py",
+    "linux_desktop.py",
+    "INSTALLIEREN.sh",
+    "STARTEN.sh",
+    "requirements-linux-lock.txt",
+    "static/index.html"
+  ],
+  "version_markers": {
+    "app.py": "APP_VERSION: Final = \"15.2.0\"",
+    "jarvis_linux.py": "VERSION = \"15.2.0\""
+  }
+}
