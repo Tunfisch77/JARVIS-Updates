@@ -1,21 +1,27 @@
 {
   "format": "jarvis-update-v1",
   "platform": "linux",
-  "version": "15.2.0",
-  "package": "jarvis_update_linux_v15_2_0.zip",
-  "sha256": "3af439f025689d0848e7c96fcb123f042dd714f8a3e4bec2a42572cafbf5b429",
-  "size_bytes": 669392,
+  "version": "15.3.0",
+  "package": "jarvis_update_linux_v15_3_0.zip",
+  "sha256": "c000eae8098d4730eb6b3954790797e0b24bd4ce7ad0d64dd40ed3b187a1828a",
+  "size_bytes": 690652,
   "required_files": [
     "app.py",
     "jarvis_linux.py",
     "linux_desktop.py",
+    "linux_bridge.py",
+    "linux_system_worker.py",
+    "linux_portal.py",
+    "linux_services.py",
+    "linux_app_window.py",
+    "linux_modules.py",
     "INSTALLIEREN.sh",
     "STARTEN.sh",
     "requirements-linux-lock.txt",
     "static/index.html"
   ],
   "version_markers": {
-    "app.py": "APP_VERSION: Final = \"15.2.0\"",
-    "jarvis_linux.py": "VERSION = \"15.2.0\""
+    "app.py": "APP_VERSION: Final = \"15.3.0\"",
+    "jarvis_linux.py": "VERSION = \"15.3.0\""
   }
 }
